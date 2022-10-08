@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #1f2937;
+}
+header {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+header nav {
+  display: flex;
+  list-style-type: none;
+  align-self: center;
+  margin-right: 4px;
+  font-size: 18px;
+
+  color: #f9faf8;
+}
+header nav li a {
+  display: inline-block;
+  padding: 0 22px 0px;
+  text-decoration: dashed;
+  font-size: 80%;
+
+  color: whitesmoke;
+}
+.main-container {
+  width: 1100px;
+  margin-top: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-content {
+  width: 540px;
+}
+/*.main-img {
+}*/
+.main-header {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.36;
+  color: #f9faf8;
+}
+/*.main-content {
+}*/
+.main-text {
+  margin: 2px;
+  color: #f9faf8;
+  font-size: 24px;
+}
+.main-content p {
+  font-size: 24px;
+  line-height: 1.78;
+}
+.button {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 30%;
+  height: 42px;
+  background: #3882f6;
+  border-radius: 8px;
+  text-decoration: none;
+  color: beige;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: end;
+}
+.image {
+  width: 195px;
+  height: 140px;
+  background-color: #1f2937;
+  border-radius: 20px;
+}
+
+.box > div {
+  border-radius: 20px;
+  width: 200px;
+  height: 150px;
+  color: black;
+  border: 3px solid blue;
+  margin: 10px;
+  text-align: center;
+}
+.box p {
+  font-size: 18px;
+  line-height: 1.78;
+  color: black;
+}
+.section-text {
+  margin-top: 100px;
+  background-color: #e5e7eb;
+  font-size: bold;
+  font-family: Peralta, sans-serif;
+  padding: 50px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+.section-x {
+  background: #3882f6;
+  padding: 50px;
+  color: #e5e7eb;
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+h3 {
+  text-align: right;
+}
+.btn {
+  border-radius: 10px;
+  border: 3px solid white;
+  text-decoration: none;
+  color: beige;
+  display: inline;
+  float: right;
+  align-self: center;
+}
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 50px;
+}

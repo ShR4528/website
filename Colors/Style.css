@@ -1,0 +1,22 @@
+body {
+  background-color: blue;
+}
+div {
+  background-color: rgb(233, 63, 241);
+}
+h1.ex {
+  background-color: gray;
+  color: rgb(215, 110, 30);
+}
+h2.exx {
+  background-color: aquamarine;
+  color: hsl(80, 77%, 21%);
+}
+h3.x {
+  background-color: chartreuse;
+  color: #0000ff;
+}
+h4.q {
+  background-color: hwb(0 16% 35%);
+  color: cadetblue;
+}

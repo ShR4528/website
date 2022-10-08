@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(169, 169, 169);
+}
+h1 {
+  color: #ffff00;
+}
+img {
+  width: 450px;
+  border-radius: 200px;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+p.x {
+  font-size: larger;
+  font-weight: 600;
+  font: 1em sans-serif;
+  background-color: #ffff00;
+}
+p.q {
+  background-color: blueviolet;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: smaller;
+  color: #ffff00;
+}
