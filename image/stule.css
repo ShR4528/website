@@ -9,6 +9,7 @@ body {
 .container {
   background-color: #1f2937;
 }
+
 header {
   width: 1100px;
   margin: 0 auto;
@@ -49,8 +50,7 @@ header nav li a {
 .main-content {
   width: 540px;
 }
-/*.main-img {
-}*/
+
 .main-header {
   margin-top: 0;
   margin-bottom: 16px;
@@ -59,8 +59,7 @@ header nav li a {
   line-height: 1.36;
   color: #f9faf8;
 }
-/*.main-content {
-}*/
+
 .main-text {
   margin: 2px;
   color: #f9faf8;
@@ -151,8 +150,9 @@ h3 {
   float: right;
   align-self: center;
 }
-.footer {
+footer {
   margin-top: 30px;
+
   text-align: center;
   background-color: #1f2937;
   color: #e5e7eb;
