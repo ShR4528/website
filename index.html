@@ -21,74 +21,88 @@
   </head>
   <body>
     <header>
-        <h2>Website</h2>
-        <nav>
-          <li><a href="./Colors/colors.html" target="_blank">Colors</a></li>
-          <li><a href="./link-and-image/index.html" target="_blank">Index</a></li>
-          <li><a href="#">Link</a></li>
-        </nav>
-      </header>
-      <main class="main">
-        <div class="main-container">
-          <div class="main-content">
-            <h1 class="main-header">This Website</h1>
-            <div class="main-text">
-              <p>
-                This website has some subtext that goes here under the main
-                title.It's smaller <font>and the color is lower contrast</font>
-              </p>
-            </div>
-            <a class="button" href="#">Sign Up</a>
-          </div>
-          <div class="main-img">
-            <img src="./image/10.jpg" alt="Random" />
-          </div>
+      <nav class="navbar Row">
+        <h1>Header Logo</h1>
+        <ul class="Row">
+          <li><a href="#about">About</a></li>
+          <li><a href="#quote">Link</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="title Row">
+        <div class="Col col-left">
+          <h1>Website</h1>
+          <p>
+            This website has some subtext that goes here under the main
+            title.It's smaller and the color is lower contrast
+          </p>
+          <button type="button">Sign up</button>
         </div>
-      </main>
-    <h1 class="text">Some  information</h1>
-   <section class="box">
-    <div>
-      <img class="image" src="./image/866.jpg" alt="photo" />
-      <p>
-          This website has some subtext that goes here under the main title.
-        </p>
-      </div>
-       <div>
-        <img class="image" src="./image/pexels-image-hunter-13092254.jpg" alt="photo" />
+        <div class="Col col-right">
+          <img src="./image/10.jpg" alt="photo" />
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="Col img">
+        <h1>Some Information</h1>
+        <div class="fgr Row">
+          <figure class="proj">
+            <img class="square" src="./image/866.jpg" alt="photo" />
+            <figcaption>
+              some subtext that goes here under the main title
+            </figcaption>
+          </figure>
+          <figure class="proj">
+            <img class="square" src="./image/866.jpg" alt="photo" />
+            <figcaption>
+              some subtext that goes here under the main title
+            </figcaption>
+          </figure>
+          <figure class="proj">
+            <img
+              class="square"
+              src="./image/pexels-image-hunter-13092254.jpg"
+              alt="photo"
+            />
+            <figcaption>
+              some subtext that goes here under the main title
+            </figcaption>
+          </figure>
+          <figure class="proj">
+            <img
+              class="square"
+              src="./image/pexels-maria-loznevaya-13125805.jpg"
+              alt="photo"
+            />
+            <figcaption>
+              some subtext that goes here under the main title
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="grey Col">
+        <blockquote>
+          This is an inspiring quote, or a testimonial from a customer.Maybe
+          it's just filling up space, or maybe people will actually read it.Who
+          knows?
+        </blockquote>
         <p>
-           some subtext that goes here under the main title.
+          <small>-Thor<strong></strong></small>
         </p>
-      </div>
-      <div>
-        <img class="image" src="./image/sidney.jpg"  alt="photo" />
-        <p>
-          This website has some subtext that goes here under the main title.
-        </p>
-      </div>
-      <div>
-        <img  class="image" src="./image/project-img2.png" alt="photo" />
-        <br />
-        <p>
-           This website has some subtext that goes here under the main title.
-        </p>
-      </div>
-    </section>
-    <section class="section-text">
-      <p>
-        This is an inspiring quote, or a testimonial from a customer.Maybe it's
-        just filling up space, or maybe people will actually read it.Who knows?
-        All know is that it looks nice.
-        <br /><br />
-       <h3>-Thor</h3>
-      </p>
-    </section>
-    <section class="section-x">
-      <h2>Call to action!Its time</h2>
-      <a class="btn" href="#">Sign Up</a>
-      <p>Sign up for our product by clicking that button right over there!</p>
-    </section>
-    <footer>
-      <p>Copyright @</p>
+      </section>
+      <section class="act Row">
+        <div class="Col">
+          <h1>Call to action!Its time</h1>
+          <p>
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <button type="submit">Sign up</button>
+      </section>
+    </main>
+    <footer class="col">
+      <p>Copyright &copy;</p>
     </footer>
   </body>
 </html>
